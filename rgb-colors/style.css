@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: grey;
+  background-size: cover;
+}
+
+body {
+  background: white;
+  text-align: center;
+  padding: 25px 0px;
+  width: 700;
+  margin: 25px auto;
+  font-family: arial, helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+hr {
+  width: 500px;
+}
+
+.rgb-code {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+input {
+  width: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: white;
+}
+
+#redin {
+  background: red;
+  color: white;
+}
+
+#greenin {
+  background: green;
+  color: white;
+}
+
+#bluein {
+  background: blue;
+  color: white;
+}
+
+#display {
+  width: 400px;
+  height: 200px;
+  background: rgb(255, 255, 0);
+  margin: auto;
+  border-color: gray;
+  border-width: 3px;
+  border-style: solid;
+}
+
+button {
+  background: grey;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 100px;
+  cursor: pointer;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: black;
+}
+
+#black {
+  background: black;
+  color: white;
+}
+
+#white {
+  background: white;
+  color: black;
+}
+
+#width {
+  color: black;
+}
+
+#height {
+  color: black;
+}

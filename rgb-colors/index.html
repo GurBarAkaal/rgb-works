@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>htgfd</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  
+
+
+
+  <h1> RGB colours </h1>
+  <p> an RGB colour is specified by: <span class="rgb-code">(red, green, blue)</span></p>
+  <p>the paramaters red, green and blue define the intenisty of the colour:<br> 0 <em>(lowest)<em></em> 255
+      <em>(highest)<em>
+          <p>
+            <hr>
+
+          <h1> try it out for yourself...</h1>
+
+
+
+          <p>preview width <input id="width" type="number" min="50" max="400" step="10" value="400">
+            preview height <input id="height" type="number" min="50" max="200" step="10" value="200">
+
+
+          </p>
+          <p>
+            red <input id="redin" type="number" value="255" min="0" max="255" step="5"> 
+            green <input id="greenin" type="number" value="255" min="0" max="255" step="5">
+            blue <input id="bluein" type="number" value="0" min="0" max="255" step="5">
+          </p>
+          <p><button id="black"> black </button> 
+          <button id="white"> white </button></p>
+        
+          
+
+
+          <p id="display"> </p>
+
+          <p> <button id="colourbtn"> preview </button></p>
+          <p class="rgb-code">rgb(255,255,0)</p>
+          <hr>
+          <p><a href="https://en.wikipedia.org/wiki/RGB_color_model" target="_blank">learn more</a> about rgb colour on
+            wikipedia</p>
+
+
+</body>
+
+</html>
